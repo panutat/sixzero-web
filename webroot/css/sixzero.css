@@ -1,0 +1,136 @@
+body {
+    background-color: #fbfaf9;
+}
+
+input.search {
+    height: 30px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.5);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#search-results div.summary {
+	margin: 10px;
+    background-color: #ffffff;
+}
+#search-results div.summary:hover {
+    background-color: #f9f9f9;
+}
+#search-results div.info {
+    padding: 5px 10px;
+	height: 80px;
+    border: 1px solid #e5edec;
+    border-top: 0px;
+}
+#search-results p {
+	font-size: 11px;
+}
+@media only screen and (max-width: 40em) {
+	#search-results div.info {
+		height: 80px;
+	}
+}
+
+#posts div.summary {
+	margin: 10px;
+    background-color: #ffffff;
+}
+#posts div.summary:hover {
+    background-color: #f9f9f9;
+}
+#posts div.info {
+	padding: 5px 10px;
+	height: 80px;
+    border: 1px solid #e5edec;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+#posts div.stats {
+    padding: 0px 10px;
+    height: 20px;
+    font-size: 70%;
+    border: 1px solid #e5edec;
+    border-top: 0px;
+    color: #bbbbbb;
+}
+#posts img.thumb {
+    height: 40px;
+    width: 40px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    margin-left: 5px;
+}
+#posts div.small {
+	padding: 5px 10px;
+	height: 80px;
+}
+#posts p {
+	font-size: 11px;
+}
+#posts div.channel {
+	position: absolute;
+	z-index: 1;
+	padding: 3px 6px;
+	background: rgba(51,51,51,.7);
+	color: #ffffff;
+	font-size: 10px;
+}
+#posts div.duration {
+    position: absolute;
+    z-index: 1;
+    padding: 3px 6px;
+    background: rgba(51,51,51,.7);
+    color: #ffffff;
+    font-size: 10px;
+    top: 27px;
+}
+@media only screen and (max-width: 40em) {
+	#posts div.info {
+		height: 80px;
+	}
+}
+
+#people div.summary {
+	margin: 10px;
+    text-align: center;
+}
+#people div.info {
+	padding: 5px 10px;
+	height: 40px;
+    border-top: 0px;
+}
+#people img.thumb {
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #eeeeee;
+}
+#people img.thumb:hover {
+    border: solid 1px #bbbbbb;
+}
+#people p {
+	font-size: 11px;
+}
+@media only screen and (max-width: 40em) {
+	#people div.info {
+		height: 45px;
+	}
+}
+
+
+.youtube-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 20px;
+}
+.youtube-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
